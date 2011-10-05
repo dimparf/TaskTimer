@@ -82,6 +82,7 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
     public void toStopState() {
         ttButton.setBackground(Color.RED);
         ttButton.setText("Старт");
+        ttButton.setActionCommand("redState");
     }
 
     public long getStartTime() {
