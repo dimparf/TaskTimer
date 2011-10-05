@@ -38,6 +38,7 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
     private void initGUI() {
         ttButton.setFont(new Font("Serif", Font.BOLD, 36));
         ttButton.setText("Старт");
+        ttButton.setActionCommand("redState");
         ttButton.setFocusPainted(false);
         ttButton.setBackground(Color.RED);
         ttButton.addActionListener(this);
@@ -57,10 +58,10 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
 
 
     public void actionPerformed(ActionEvent e) {
-        if (ttButton.getBackground().equals(Color.RED)) {
+        if (e.getActionCommand().equals("redState")) {
             startTime = System.currentTimeMillis();
             toDelayState();
-        } else if (ttButton.getBackground().equals(Color.GREEN)) {
+        } else if (e.getActionCommand().equals("greenState")) {
             stopTime = System.currentTimeMillis();
             TaskNamerDialog d = new TaskNamerDialog(this);
             d.setLocationRelativeTo(this);
@@ -74,6 +75,7 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
 
     private void toDelayState() {
         ttButton.setBackground(Color.GREEN);
+        ttButton.setActionCommand("greenState");
         ttButton.setText("Делаю...");
     }
 
