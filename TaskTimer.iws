@@ -67,7 +67,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+            <state line="20" column="71" selection-start="565" selection-end="579" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskTimerWindow.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TaskTimerWindow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskTimerWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="5" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
+            <state line="21" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.36956522">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TaskNamerDialog.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TaskNamerDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="30" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.40301004">
+            <state line="13" column="27" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,9 +123,9 @@
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskTimerWindow.form" />
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.form" />
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/Task.java" />
-        <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.java" />
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/ChartDialog.java" />
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.java" />
         <option value="$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskTimerWindow.java" />
       </list>
     </option>
@@ -193,6 +193,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskTimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaskTimer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="tasktimer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -226,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
@@ -394,7 +412,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="7" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24465811" sideWeight="0.67022413" order="-1" side_tool="false" content_ui="tabs" />
@@ -494,9 +512,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="73" selection-end="73" vertical-scroll-proportion="0.08528428">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="27" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+        <state line="20" column="71" selection-start="565" selection-end="579" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -505,16 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskTimerWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="5" selection-start="2093" selection-end="2093" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/blogspot/raibowdev/tasktimer/TaskNamerDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="30" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.40301004">
+        <state line="21" column="0" selection-start="562" selection-end="562" vertical-scroll-proportion="0.36956522">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -527,10 +552,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>TaskTimer:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -574,12 +601,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TaskTimer</last-edited>
+          <last-edited>Scala|TaskTimer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

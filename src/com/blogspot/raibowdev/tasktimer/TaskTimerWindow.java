@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Properties;
 
 /**
@@ -26,6 +28,11 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
         setJMenuBar(createMenuBar());
         setVisible(true);
         initGUI();
+        try {
+            tasks.load(new FileReader("tasktimer.data"));
+        } catch (IOException ioe) {
+            JOptionPane.showMessageDialog(this, ioe);
+        }
     }
 
     private void initGUI() {
