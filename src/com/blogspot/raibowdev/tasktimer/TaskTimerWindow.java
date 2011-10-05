@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
@@ -29,7 +30,12 @@ public class TaskTimerWindow extends JFrame implements ActionListener {
         setVisible(true);
         initGUI();
         try {
-            tasks.load(new FileReader("tasktimer.data"));
+            File f = new File("tasktimer.data");
+            if (f.exists()) {
+                tasks.load(new FileReader("tasktimer.data"));
+            } else {
+                f.createNewFile();
+            }
         } catch (IOException ioe) {
             JOptionPane.showMessageDialog(this, ioe);
         }

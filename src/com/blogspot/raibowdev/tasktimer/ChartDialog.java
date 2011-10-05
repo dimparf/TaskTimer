@@ -20,10 +20,8 @@ import java.util.Properties;
  */
 
 public class ChartDialog extends JDialog {
-    private TaskTimerWindow owner;
 
     public ChartDialog(TaskTimerWindow owner) {
-        this.owner = owner;
         setModal(true);
         setLocationRelativeTo(owner);
         setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
@@ -56,14 +54,13 @@ public class ChartDialog extends JDialog {
         plot.setSectionOutlinesVisible(false);
         plot.setLabelFont(new Font("SansSerif", Font.PLAIN, 12));
         plot.setNoDataMessage("No data available");
-        plot.setCircular(false);
+        //plot.setCircular(false);
         plot.setLabelGap(0.02);
         return chart;
     }
 
     public static JPanel createChartPanel(Properties tasks, String title) {
         JFreeChart chart = createChart(createDataset(tasks), title);
-        ChartPanel chartPanel = new ChartPanel(chart);
-        return chartPanel;
+        return new ChartPanel(chart);
     }
 }
